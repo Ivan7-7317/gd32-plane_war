@@ -390,6 +390,11 @@
               <FilePath>.\main.c</FilePath>
             </File>
             <File>
+              <FileName>game.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\game.c</FilePath>
+            </File>
+            <File>
               <FileName>startup_gd32h7xx.s</FileName>
               <FileType>2</FileType>
               <FilePath>.\GD32H7xx\startup_gd32h7xx.s</FilePath>
@@ -414,16 +419,6 @@
               <FileType>1</FileType>
               <FilePath>.\lvgl\demos\benchmark\assets\lv_font_bechmark_montserrat_16_compr_az.c.c</FilePath>
             </File>
-            <File>
-              <FileName>read_file_to_array.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\read_file_to_array.c</FilePath>
-            </File>
-            <File>
-              <FileName>Hang2Hang.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\Hang2Hang.c</FilePath>
-            </File>
           </Files>
         </Group>
         <Group>
@@ -438,6 +433,11 @@
               <FileName>gd32h7xx_gpio.c</FileName>
               <FileType>1</FileType>
               <FilePath>.\GD32H7xx_standard_peripheral\Source\gd32h7xx_gpio.c</FilePath>
+            </File>
+            <File>
+              <FileName>gd32h7xx_adc.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\GD32H7xx_standard_peripheral\Source\gd32h7xx_adc.c</FilePath>
             </File>
             <File>
               <FileName>gd32h7xx_rcu.c</FileName>
@@ -1418,21 +1418,6 @@
               <FileName>lv_textarea.c</FileName>
               <FileType>1</FileType>
               <FilePath>.\lvgl\src\widgets\lv_textarea.c</FilePath>
-            </File>
-          </Files>
-        </Group>
-        <Group>
-          <GroupName>New Group</GroupName>
-          <Files>
-            <File>
-              <FileName>my_callbacks.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>.\my_callbacks.h</FilePath>
-            </File>
-            <File>
-              <FileName>my_callbacks.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\my_callbacks.c</FilePath>
             </File>
           </Files>
         </Group>

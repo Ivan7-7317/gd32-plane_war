@@ -1,14 +1,14 @@
 --cpu Cortex-M7.fp.dp
 ".\objects\main.o"
+".\objects\game.o"
 ".\objects\startup_gd32h7xx.o"
 ".\objects\system_gd32h7xx.o"
 ".\objects\gd32h7xx_it.o"
 ".\objects\lv_font_bechmark_montserrat_12_compr_az.c.o"
 ".\objects\lv_font_bechmark_montserrat_16_compr_az.c.o"
-".\objects\read_file_to_array.o"
-".\objects\hang2hang.o"
 ".\objects\gd32h7xx_misc.o"
 ".\objects\gd32h7xx_gpio.o"
+".\objects\gd32h7xx_adc.o"
 ".\objects\gd32h7xx_rcu.o"
 ".\objects\gd32h7xx_tli.o"
 ".\objects\gd32h7xx_exmc.o"
@@ -194,7 +194,6 @@
 ".\objects\lv_switch.o"
 ".\objects\lv_table.o"
 ".\objects\lv_textarea.o"
-".\objects\my_callbacks.o"
 --strict --scatter ".\Objects\TemplateProject.sct"
 --summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
 --info sizes --info totals --info unused --info veneers

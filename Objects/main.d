@@ -192,5 +192,4 @@
 .\objects\main.o: .\Drivers\sdram_malloc.h
 .\objects\main.o: .\lvgl\examples\porting\lv_port_disp_template.h
 .\objects\main.o: .\lvgl\examples\porting\lv_port_indev_template.h
-.\objects\main.o: my_callbacks.h
-.\objects\main.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\objects\main.o: game.h
